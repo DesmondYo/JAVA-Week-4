@@ -44,9 +44,8 @@ public class Week4HomeWork {
 				i++;
 			}
 		//6.
-			for (Integer key : employeeMap.keySet()) {
-				String value = null;
-				System.out.println("Employee is : "  + employeeMap.put(key, value));
+			for (Integer key : ids) {
+				System.out.println(key + " " + employeeMap.get(key));
 				
 		//7. 
 			StringBuilder idsBuilder = new StringBuilder();
